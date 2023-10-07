@@ -1383,7 +1383,6 @@ def bapi(idf,pwv):
 			koki = (";").join([ "%s=%s" % (key, value) for key, value in p.cookies.get_dict().items() ])
 			koki+=' m_pixel_ratio=2.625; wd=412x756'
 			heade={
-			"{
     'authority': 'mbasic.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
